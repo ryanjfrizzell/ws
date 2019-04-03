@@ -1,10 +1,10 @@
 dc := docker-compose run -w /opt/ws/ wspkg
-all: clean clean build lint test package runtest
+all: clean build lint test package runtest
 clean:
-	find . -type d -iname '__pycache__' -exec rm -rf {} \;
-	find . -type f -iname '*.pyc' -delete
-	rm -rf build/*
-	rm -rf dist/*
+	find . -type d -iname '__pycache__' -exec rm -rf {} \; | true
+	find . -type f -iname '*.pyc' -delete | true
+	rm -rf build/* | true
+	rm -rf dist/* | true
 build:
 	$(dc) build
 lint:

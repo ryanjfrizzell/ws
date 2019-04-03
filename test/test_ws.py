@@ -32,7 +32,7 @@ def test_flatten_lst():
 def test_search_for_str():
     a = LMatrix(11)
     s = SearchStuff('./words.txt', a.mtrix)
-    assert s.search_for_str('catbird', 'asdfacaxcastcatbirdfccvzzziidddjj')
+    assert s.search_for_str('asdfacaxcastcatbirdfccvzzziidddjj', 'catbird')
 
 def test_search_stuff():
     a = LMatrix(11)

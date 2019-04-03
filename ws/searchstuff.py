@@ -22,10 +22,9 @@ class SearchStuff:
         (bash) time testscript.py
         testscript.py contained very simple examples
         """
-        ln = line.lower()
-        st = search_string.lower()
-        print("looking for %s in %s" % (st, ln))
-        if st in ln:
+        ln = line.lower().strip()
+        st = search_string.lower().strip()
+        if ln in st:
             return True
 
     def flatten_lst(self, lst):
