@@ -1,0 +1,7 @@
+version: "3"
+services:
+  wspkg:
+    build:
+      context: ./
+    volumes:
+      - .:/opt/ws/
