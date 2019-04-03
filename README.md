@@ -8,12 +8,17 @@ searches for words given an input
 
 #### Versions used: 
 
-* Docker: <code> docker version
-Client: Docker Engine - Community
-Version:           18.09.2</code>
+* docker: <code>
+docker version
+Client: Docker Engine - Community Version: 18.09.2
+</code>
 
-* docker-compose: <code> docker-compose --version
-docker-compose version 1.23.2, build 1110ad01 </code>
+* docker-compose: <code>
+docker-compose --version
+docker-compose version 1.23.2, build 1110ad01
+</code>
 
-* make: <code> make --version
-GNU Make 3.81</code>
+* make: <code>
+make --version
+GNU Make 3.81
+</code>
